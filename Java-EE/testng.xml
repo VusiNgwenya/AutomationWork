@@ -1,0 +1,13 @@
+<?xml verison="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Listener" parallel="none">
+
+<listeners>
+   <listener class-name="TestListener"/>
+</listeners>
+  <test name="Login Test">
+    <classes>
+       <class name="Java_EE/LoginTest"/>
+    </classes>
+  </test>
+ </suite>
