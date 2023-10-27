@@ -2,6 +2,8 @@ package com.w2a.rough;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -22,6 +24,7 @@ public class TestProperties
 	public static Properties OR = new Properties();
 	public static FileInputStream fis=null;
 
+	@BeforeMethod
 	@BeforeMethod
 	@BeforeSuite
 	public void setUp()
@@ -71,6 +74,7 @@ public class TestProperties
 		}	
 	}
 	
+	@AfterMethod
 	@AfterMethod
 	@AfterSuite
 	public void tearDown()

@@ -1,27 +1,43 @@
 package com.w2a.testcases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.w2a.base.TestBase;
 import com.w2a.utilities.ExcelReader;
+import com.w2a.utilities.TestUtil;
 
 import graphql.org.antlr.v4.runtime.atn.SemanticContext.OR;
 
-public class AddCustomerTest extends TestBase{
+public class OpenAccountTest extends TestBase{
 	
 	
-	@Test(dataProvider=TestUtil.class,dataProvider)
-	public void addCustomer(String firstName,String lastName,String postalCode,String alertText,String runMode)
+	@Test(dataProviderClass=TestUtil.class,dataProvider="dp")
+	public void openAccountTest(String customer,String currency) throws InterruptedException
 	{
-		if(runMode.equals("Y"))
-		{
-			throw new SkipException("Skipping the test case as the Run mode")
-		}
+		click("openaccount_CSS");
+		select("customer_CSS",customer);
+		select("currency_CSS",customer);
+		click("button[type='submit']");
+		Thread.sleep(2000);
 		
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+		alert.accept();
 		
+		Assert.fail("Customer not added successfully");
+		
+		Thread.sleep(2000);
+	}
+	
+	@Test(dataProvider="getData")
+	public void addCustomer(String firstName,String lastName,String postalCode)
+	{
 		click("addCustBtn");
 		type("firstname_CSS",firstName);
 		type("firstname_XPATH",firstName);
