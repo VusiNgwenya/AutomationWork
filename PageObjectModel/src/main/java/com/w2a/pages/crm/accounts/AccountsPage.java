@@ -1,0 +1,10 @@
+package com.w2a.pages.crm.accounts;
+
+public class AccountsPage {
+	
+	public void gotoCreateAccount()
+	{
+		
+	}
+
+}
