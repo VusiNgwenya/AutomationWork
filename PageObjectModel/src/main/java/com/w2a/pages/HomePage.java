@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
 	
 	WebDriver driver;
+	LoginPage login;
 	
 	public HomePage(WebDriver driver)
 	{
@@ -21,9 +22,10 @@ public class HomePage {
 		driver.findElement(By.cssSelector(".signup")).click();
 	}
 	
-	public void goToLogin()
+	public LoginPage goToLogin()
 	{
 		driver.findElement(By.cssSelector(".signin")).click();
+		return login;
 	}
 	
 	public void goToZohoEdu()

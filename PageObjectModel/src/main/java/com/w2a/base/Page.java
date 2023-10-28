@@ -23,4 +23,9 @@ public class Page
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS)
 		
 	}
+	
+	public void click(String str)
+	{
+		
+	}
 }

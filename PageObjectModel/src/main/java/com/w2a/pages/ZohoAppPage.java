@@ -24,7 +24,7 @@ public class ZohoAppPage
 	{
 		driver.findElement(By.xpath(".zicon-apps-crm.zicon-apps-96")).click();
 		
-		return 
+		return new CRMHomePage();
 	}
 	
 	public void gotoSalesIQ()

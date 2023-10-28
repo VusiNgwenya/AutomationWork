@@ -25,9 +25,9 @@ public class LoginTest {
 		
 		
 		HomePage home = new HomePage(driver);
-		home.goToLogin();
+	  	home.goToLogin();
 		
-		LoginPage login = new LoginPage(driver);
+		LoginPage login = home.goToLogin();
 		login.doLogin("traner@way2automation.com", "Selenium@123");
 		
 		ZohoAppPage zp = new ZohoAppPage(driver);
