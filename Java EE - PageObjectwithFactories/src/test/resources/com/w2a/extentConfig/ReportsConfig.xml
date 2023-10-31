@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+     <theme>standard</theme>
+     <encoding>UTF-8</encoding>
+     <protocol>https</protocol>
+     <documentTitle>W2a Automation Report</documentTitle>
+     <reportName>Automation Report for</reportName>
+     <reportHeadLine>Data Driven Framework</reportHeadLine>
+     <dateFormat>yyyy-MM-dd</dateFormat>
+     
+     <scripts>
+        <![CDATA[
+            $(document).ready(function(){
+            
+            });
+        ]]>    
+     </scripts>
+     
+  </configuration>
+</extentreports>
