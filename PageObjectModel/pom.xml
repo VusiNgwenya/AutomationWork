@@ -69,6 +69,75 @@
 
     <dependencies>
         <!-- build dependencies -->
+        
+        <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi</artifactId>
+           <version>4.1.1</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml</artifactId>
+           <version>4.1.1</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>dom4j</groupId>
+           <artifactId>dom4j</artifactId>
+           <version>1.6.1</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>org.apache.xmlbeans</groupId>
+           <artifactId>xmlbeans</artifactId>
+           <version>3.1.0</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml-schemas</artifactId>
+           <version>4.1.1</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+           <version>8.0.27</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>com.aventstack</groupId>
+           <artifactId>extentreports</artifactId>
+           <version>5.0.9</version>
+        </dependency>
+        
+        <dependency>
+           <groupId>com.sun.mail</groupId>
+           <artifactId>javax</artifactId>
+           <version>1.6.2</version>
+        </dependency>
+        
+          <dependency>
+           <groupId>org.uncommons</groupId>
+           <artifactId>reportng</artifactId>
+           <version>1.1.4</version>
+           <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+           <groupId>org.testng</groupId>
+           <artifactId>testng</artifactId>
+           <version>6.14.3</version>
+           <scope>test</scope>
+        </dependency>
+        
+          <dependency>
+           <groupId>com.google.inject</groupId>
+           <artifactId>guice</artifactId>
+           <version>4.1.1</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
