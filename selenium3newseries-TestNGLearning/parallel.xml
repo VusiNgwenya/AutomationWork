@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+   <test name="Firefox Test">
+      <parameter name="browser" value="firefox"></parameter>
+      <parameter name="env" value="qa"></parameter>
+      <classes>
+          <class name="parallelTests.TestBrowser"/>
+      </classes>
+      </test>
+      
+      <test name="Chrome test">
+      <parameter name="browser" value="chrome"></parameter>
+      
+      </test>
+ </suite>

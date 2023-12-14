@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Function Suite">
+
+    <listeners>
+      <listener class-name="customerListeners.Listeners"></listener>
+    </listeners>
+    <groups>
+       <run>
+          <exclude name="bvt"></exclude>
+       </run>
+    </groups>
+    <test name="Login Test">
+     <classes>
+
+         <class name="testcases.TestCase1"/>
+     
+     </classes>
+     </test>
+     
+      <test name="Failure Test">
+     <classes>
+
+         <class name="testcases.TestFailure"/>
+         
+     </classes>
+     </test>
+     
+     
+     <test name="Dependency Test">
+     <classes>
+     
+         <class name="testcases.TestCase3"/>
+         
+     </classes>
+     </test>
+ </suite>   

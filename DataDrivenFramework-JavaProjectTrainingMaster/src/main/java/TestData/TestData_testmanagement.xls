@@ -1,0 +1,217 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Test Data</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+                        <caption>Test Data Requested:</caption>
+                        <thead>
+                        <tr>
+                            <th>ID/Passport Number</th>
+                            <th>Surname</th>
+                            <th>Name</th>
+                            <th>Second Name</th>
+                            <th>Score</th>
+                            <th>Client Key/Code</th>
+                            <th>AccountNo</th>
+                            <th>AOL Registration</th>
+                            <th>Ecasa RefNo</th>
+                            <th>Policy</th>
+                            <th>Bureau Type</th>
+                            <th>Comment</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <!-- ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">6410170800085</td>
+                            <td class="ng-binding">NOVEMBER</td>
+                            <td class="ng-binding">WAYNE</td>
+                            <td class="ng-binding">LOUISE</td>
+                            <td class="ng-binding">600</td>
+                            <td class="ng-binding">KWAZAD 057</td>
+                            <td class="ng-binding">[3001493100  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">6110160800083</td>
+                            <td class="ng-binding">RADEBE</td>
+                            <td class="ng-binding">ELLIOT</td>
+                            <td class="ng-binding">ELIZABETH</td>
+                            <td class="ng-binding">599</td>
+                            <td class="ng-binding">VZYLJ  744</td>
+                            <td class="ng-binding">[3001476380  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">6208175063182</td>
+                            <td class="ng-binding">TSABEDZE</td>
+                            <td class="ng-binding">TERRENCE</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">598</td>
+                            <td class="ng-binding">TSABEVU001</td>
+                            <td class="ng-binding">[3001558621  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">121350623</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">8702155217089</td>
+                            <td class="ng-binding">TZONZI</td>
+                            <td class="ng-binding">MALUSI</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">596</td>
+                            <td class="ng-binding">FORANF 001</td>
+                            <td class="ng-binding">[3001292053  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">121132177</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">9005215521089</td>
+                            <td class="ng-binding">VAN NOORDWYK</td>
+                            <td class="ng-binding">RAJAN</td>
+                            <td class="ng-binding">MITCHELL</td>
+                            <td class="ng-binding">596</td>
+                            <td class="ng-binding">XVXCXVP001</td>
+                            <td class="ng-binding">[3001363989  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">1625980</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">9306120612082</td>
+                            <td class="ng-binding">NKIKANE</td>
+                            <td class="ng-binding">SIYAVUYA</td>
+                            <td class="ng-binding">MERRIAM</td>
+                            <td class="ng-binding">594</td>
+                            <td class="ng-binding">KHUMAT 037</td>
+                            <td class="ng-binding">[3001350988  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">1513252</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">5712160800087</td>
+                            <td class="ng-binding">BAKUMENI-NONGCULA</td>
+                            <td class="ng-binding">THEMBA</td>
+                            <td class="ng-binding">SARAH</td>
+                            <td class="ng-binding">591</td>
+                            <td class="ng-binding">NONGCM 021</td>
+                            <td class="ng-binding">[3001459219  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">6912110800083</td>
+                            <td class="ng-binding">MAKAPELA</td>
+                            <td class="ng-binding">THOKO</td>
+                            <td class="ng-binding">MARTHA</td>
+                            <td class="ng-binding">591</td>
+                            <td class="ng-binding">GWAGWS 002</td>
+                            <td class="ng-binding">[3001443286  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">8307210721081</td>
+                            <td class="ng-binding">MASHILWANE</td>
+                            <td class="ng-binding">NOMSA</td>
+                            <td class="ng-binding">EUNICE</td>
+                            <td class="ng-binding">589</td>
+                            <td class="ng-binding">WELLOK 001</td>
+                            <td class="ng-binding">[3001513629  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">1246803</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">5612180800085</td>
+                            <td class="ng-binding">NQEKETO</td>
+                            <td class="ng-binding">MATSIDISO</td>
+                            <td class="ng-binding">MAMAGANE</td>
+                            <td class="ng-binding">589</td>
+                            <td class="ng-binding">NQEKEL 022</td>
+                            <td class="ng-binding">[3001461604  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">5605230198088</td>
+                            <td class="ng-binding">PICANE</td>
+                            <td class="ng-binding">ELMARIE</td>
+                            <td class="ng-binding">NTOMBENDALA</td>
+                            <td class="ng-binding">589</td>
+                            <td class="ng-binding">PICANGN001</td>
+                            <td class="ng-binding">[3001279253  PLOAN,3001410035  PLOAN,3001410077  PLOAN,3001419089  EXPRESS]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">120006610</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">8210300655088</td>
+                            <td class="ng-binding">NTSHEBE</td>
+                            <td class="ng-binding">MADELEINE</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">1</td>
+                            <td class="ng-binding">NTSHET 003</td>
+                            <td class="ng-binding">[4048138433  ABSCACC]</td>
+                            <td class="ng-binding">YES</td>
+                            <td class="ng-binding">120010347</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">6012140800086</td>
+                            <td class="ng-binding">MABOVULA</td>
+                            <td class="ng-binding">GLORIA</td>
+                            <td class="ng-binding">NOLUFEFE</td>
+                            <td class="ng-binding">589</td>
+                            <td class="ng-binding">MABOVN 026</td>
+                            <td class="ng-binding">[3001463583  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">6412250800084</td>
+                            <td class="ng-binding">KOBESE</td>
+                            <td class="ng-binding">JOHANITA</td>
+                            <td class="ng-binding">NOYUYU</td>
+                            <td class="ng-binding">588</td>
+                            <td class="ng-binding">KOBESN 062</td>
+                            <td class="ng-binding">[3001496425  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData --><tr ng-repeat=" testdata in NtbTestData" class="ng-scope">
+                            <td class="ng-binding">5905280806089</td>
+                            <td class="ng-binding">MOLEFI</td>
+                            <td class="ng-binding">LOUSA</td>
+                            <td class="ng-binding">MAKI</td>
+                            <td class="ng-binding">587</td>
+                            <td class="ng-binding">MOLEFEM003</td>
+                            <td class="ng-binding">[3001410904  PLOAN]</td>
+                            <td class="ng-binding">NO</td>
+                            <td class="ng-binding">1812237</td>
+                            <td class="ng-binding"></td>
+                            <td class="ng-binding">TransUnion</td>
+                            <td class="ng-binding"></td>
+                        </tr><!-- end ngRepeat:  testdata in NtbTestData -->
+                        </tbody>
+                    </table></body></html>

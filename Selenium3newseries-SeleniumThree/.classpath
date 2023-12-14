@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/abvn237/Downloads/selenium-java-4.8.1/selenium-chrome-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/abvn237/Downloads/selenium-java-4.8.1/selenium-edge-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/abvn237/Downloads/selenium-java-4.8.1/selenium-edge-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/abvn237/Downloads/selenium-java-4.8.1/selenium-firefox-driver-4.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/abvn237/Downloads/selenium-java-4.8.1/selenium-firefox-driver-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/abvn237/Downloads/selenium-java-4.8.1/selenium-api-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/abvn237/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.3.0/selenium-remote-driver-4.3.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-remote-driver"/>
+			<attribute name="maven.version" value="4.3.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/abvn237/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.3.0/selenium-ie-driver-4.3.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-ie-driver"/>
+			<attribute name="maven.version" value="4.3.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/abvn237/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1.jar" sourcepath="/Users/abvn237/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.1.1/selenium-opera-driver-4.1.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-opera-driver"/>
+			<attribute name="maven.version" value="4.1.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Items To Cart">
+     
+  <test name="Verify item added to cart">
+     <classes>
+         <class name="/Assignment_3_Verify_added_items_to_cart/Assignment3"/>
+     </classes>
+  </test>
+</suite>

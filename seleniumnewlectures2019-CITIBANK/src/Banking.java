@@ -3,6 +3,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Banking
 {
+	public static WebDriver driver=null;
 	
 	Calculator calc = new Calculator();
 	
@@ -23,9 +24,10 @@ public class Banking
 	
 	public static void main(String[] args)
 	{
-		FirefoxDriver driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 		
-		driver.get
+		driver.get("");
+		//driver.get
 		
 		/*driver.get("https://www.way2automation.com/angularjs-protractor/banking/#/manager");
 		

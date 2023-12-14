@@ -1,8 +1,9 @@
 package com.sample.test;
 
+import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class Retry {
+public class Retry implements IRetryAnalyzer {
 	
 	
 	int retrycount =0;

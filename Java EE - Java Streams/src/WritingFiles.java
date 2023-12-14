@@ -20,7 +20,9 @@ public class WritingFiles {
 		writer.newLine();
 		writer.write("Raman");
 		
-		writer.close();*/
+		writer.close();
+		System.out.println("File Created !!!");
+		*/
 		
 		for(int i=0;i<4;i++)
 		{

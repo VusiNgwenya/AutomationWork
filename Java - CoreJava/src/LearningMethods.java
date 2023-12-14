@@ -1,6 +1,18 @@
 
 public class LearningMethods {
 	
+	int i;
+	int j;
+	
+	public int show()
+	{
+		int a;
+		int b;
+		String c;
+		
+		return 10;
+	}
+	
 	public void display(int k, String a, char c, float f, boolean b)
 	{
 		int j;
