@@ -1,0 +1,22 @@
+
+to handle enterFiveDigits
+	
+	Click 1
+	
+	wait 2
+	
+	Click 1
+	
+	wait 2
+	
+	Click 2
+	
+	wait 2
+	
+	Click 2
+	
+	wait 
+	
+	Click 3
+	
+end enterFiveDigits
