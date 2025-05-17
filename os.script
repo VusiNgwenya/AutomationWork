@@ -1,0 +1,35 @@
+config
+
+to connectToDevice 
+
+	Connect Name:Global appName, PortNum : Global portNumber
+	
+	LaunchApp Global appName
+	
+	Wait 2
+	
+end connectToDevice
+
+to downloadAndInstallApp
+
+	installApp Global appCenterAppName	
+	
+end downloadAndInstallApp
+
+function isAppInstalled
+	
+	Set myAppList() to AppList()
+	
+	if myAppList contains Global appName
+		Put true into Global isInstalled 
+		
+	else
+		
+		Put false into Global isInstalled
+		downloadAndInstallApp
+		
+	end if
+	
+	return isInstalled
+	
+end isAppInstalled
