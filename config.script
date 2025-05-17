@@ -1,0 +1,7 @@
+
+Set SearchRectangle to empty
+Set Global deviceName to "Galaxy A3"
+Set Global portNumber to "7000"
+Set Global appName to  "com.barclays.absa.banking.uat"
+Set Global appCenterAppName to "https://appcenter.ms/orgs/Absa-Bank/apps/Android-Banking-App-UAT-Ad-Hoc/distribute/releases/1281"
+Set Global isInstalled to true
