@@ -1,0 +1,7 @@
+coreLibrary
+
+to loginToApp
+	
+	coreLibrary.enterFiveDigits
+	
+end loginToApp
