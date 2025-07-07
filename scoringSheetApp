@@ -1,0 +1,11 @@
+from music21 import *
+from showscore import show
+
+abc_notation = "X:1\nT:My Tune\nM:4/4\nK:C\nCDEF|G2G2|A4|G2F2|E4|"
+score = converter.parse(abc_notation)
+
+show(score)
+
+show(score, tab=False)
+
+show(score, title=True, tab=False, backend='svg')
