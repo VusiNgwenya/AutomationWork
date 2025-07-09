@@ -1,0 +1,13 @@
+import pytest
+
+
+def test_parallel(appium_driver):
+    driver = appium_driver
+    driver.find_element_by_accessibility_id('Attributes').click()
+
+    wheel = driver.find_elements_by_class_name('XCUIElementTypePickerWheel')[0]
+    driver.execute_script("mobile: selectPickerWheelValue", {'order': 'next', 'offset': 0.15, 'element': wheel})
+    # driver.find_elements_by_class_name('XCUIElementTypePickerWheel')[0].send_keys('Fri, Jun 4')
+    driver.find_elements_by_class_name('XCUIElementTypePickerWheel')[1].send_keys('10')
+    driver.find_elements_by_class_name('XCUIElementTypePickerWheel')[2].send_keys('20')
+    driver.find_elements_by_class_name('XCUIElementTypePickerWheel')[3].send_keys('AM')
