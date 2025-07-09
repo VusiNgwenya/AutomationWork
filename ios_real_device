@@ -1,0 +1,28 @@
+from appium import webdriver
+import time
+
+desired_caps = {}
+desired_caps['platformName'] = 'iOS'
+desired_caps['platformVersion'] = '14.3'
+desired_caps['deviceName'] = 'iPhone 12 Pro Max'
+desired_caps['udid'] = '40545022-FD58-4311-B28A-B4EADB417E17'
+desired_caps['bundleId'] = 'com.rahul.IntegrationApp'
+
+driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+
+driver.implicitly_wait(10)
+
+driver.find_element_by_accessibility_id('Alerts').click()
+driver.find_element_by_accessibility_id('Create App Alert').click()
+driver.find_element_by_accessibility_id('Will do').click()
+driver.back()
+driver.find_element_by_accessibility_id('Attributes').click()
+driver.find_element_by_xpath("//XCUIElementTypeTextField[@value='Value']").clear()
+driver.find_element_by_xpath(
+    '//XCUIElementTypeApplication[@name="IntegrationApp"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField[1]').send_keys(
+    "Hello")
+driver.back()
+driver.find_element_by_accessibility_id('Scrolling').click()
+driver.back()
+
+time.sleep(2)
